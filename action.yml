@@ -1,5 +1,5 @@
 name: "YAML Action"
-description: "Github action to read, modify and write yaml"
+description: "Github action to read, modify and write yaml - forked from teunmooij/yaml"
 author: "Teun Mooij"
 branding:
   icon: file-text
@@ -24,5 +24,5 @@ outputs:
   data:
     description: "The output data"
 runs:
-  using: "node20"
+  using: "node24"
   main: "dist/index.js"
